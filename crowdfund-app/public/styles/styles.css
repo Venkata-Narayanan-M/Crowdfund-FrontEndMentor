@@ -1,0 +1,170 @@
+body {
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  font-family: "Commissioner", sans-serif;
+}
+
+header {
+  width: 100%;
+  min-height: 500px;
+  background-size: cover;
+  background-image: url("/images/image-hero-desktop.jpg");
+}
+
+.navbar {
+  padding: 0 10rem;
+  margin-top: 5rem;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.nav-item a {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.container-main {
+  margin: -6% 30% 2%;
+  padding: 2rem;
+}
+
+.bordered {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.top-icon {
+  width: 12%;
+  height: 12%;
+  transform: translate(360%, -50%);
+}
+
+.first-card-buttons {
+  justify-content: space-between;
+}
+
+.btn-primary {
+  background-color: hsl(176, 50%, 47%) !important;
+  border: 0 !important;
+  border-radius: 10px !important;
+}
+
+.btn-primary:hover {
+  background-color: hsl(176, 72%, 28%) !important;
+}
+
+.cardCol-metrics {
+  margin: 0 1%;
+  padding: 0.5 rem;
+}
+
+.cardCol-first-text {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.cardCol-second-text {
+  font-size: 0.75rem;
+  color: darkgray;
+  margin-bottom: 0;
+}
+
+.card-progress {
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  /* padding: 1rem; */
+}
+
+.border-separator {
+  border-right: 1px solid lightgray;
+}
+
+.progress {
+  margin: 1rem 0;
+}
+
+.progress-bar {
+  background-color: hsl(176, 72%, 28%) !important;
+  border-radius: 5px;
+}
+
+.products-container {
+  box-sizing: border-box;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.product-subtitle {
+  color: hsl(176, 72%, 28%);
+  font-size: 1.1 rem;
+  font-weight: 300;
+}
+
+.product-description {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.product-left {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.border-textbox {
+  border: 1px solid darkgray;
+  width: 75%;
+  border-radius: 20px;
+}
+.top-border {
+  border-top: 1px solid lightgray;
+}
+.enter-pledge-text {
+  font-size: 1rem;
+  color: darkgray;
+}
+
+.progress-bar-style {
+  width: 68%;
+}
+/* Media queries - Conditional renders */
+@media screen and (max-width: 475px) {
+  header {
+    min-height: 250px;
+    background-size: cover;
+    background-image: url("/images/image-hero-mobile.jpg");
+  }
+
+  .navbar {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .container-main {
+    margin: -10% 10% 2%;
+    padding: 0rem;
+  }
+
+  .first-card-buttons {
+    justify-content: center !important;
+  }
+
+  /* .card-progress {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  } */
+
+  .border-separator {
+    border-right: 0;
+    border-bottom: 1px solid lightgray;
+    border-bottom-width: 50%;
+  }
+}
